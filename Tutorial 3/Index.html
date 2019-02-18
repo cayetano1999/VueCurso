@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>Tutorial 3</title>
+</head>
+<body>
+    
+    <div id="app">
+<div class="col-sm-4">
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <input v-model="nuevonombre" class="form-control"> 
+        
+    </div>
+
+    <div class="form-group">
+            <label>Apellido</label>
+            <input v-model="nuevoapellido"  class="form-control"> 
+            
+    </div>
+
+    <div class="form-group">
+            <label>Ocupacion</label>
+            <input v-model="nuevaocupacion" class="form-control"> 
+            <button class="btn btn-sm btn-success" v-on:click="AgregarPersona" >Agregar</button>
+    </div>
+
+    <table class="table table-lg">
+
+        <thead>
+
+               <th>
+                   Nombre
+               </th>
+
+               <th>
+                   Apellido
+               </th>
+
+               <th>
+                   Ocupacion
+                </th>
+
+                <th>
+                    Nivel
+                </th>
+
+                <th>
+                    Acciones
+                </th>
+        </thead>
+
+        <tr v-for="personas of personas">
+
+            <td>
+                {{personas.nombre}}
+            </td>
+
+            <td>
+                {{personas.apellido}}
+            </td>
+
+            <td>
+                {{personas.ocupacion}}
+            </td>
+
+            <td>
+            <input class="form-control" v-model.number='personas.nivel'>
+            <button v-on:click="personas.nivel++">+</button>
+            </td>
+
+            <td>
+                <div class="well">
+                        <a class="btn btn-sm btn-success">Edit</a>
+                        <a class="btn btn-sm btn-primary">Details</a>
+                        <a class="btn btn-sm btn-danger">Delete</a>
+
+                </div>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+<label>Total = {{SumarNivel}}</label>
+    
+
+</div>
+
+
+    </div>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   <script src="js/index.js"></script>
+</body>
+</html>

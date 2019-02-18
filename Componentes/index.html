@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="js/index.js"></script>    
+    <title>Componentes</title>
+</head>
+<body>
+    
+    <div class="alert alert-success text-center col-sm-6">
+        Los componentes son instancias reutilizables de Vue con un nombre: en este caso button-counter>.
+        Podemos usar este componente como un elemento personalizado dentro de una instancia de Vue raíz creada con new Vue.
+        Tambien lo usamos para separar en varias secciones el sitio web
+    </div>
+
+    <hr/>
+
+    <saludando></saludando>
+
+
+    <div id='app' class="container"> 
+        <h1>{{titulo}}</h1>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <script>
+    
+    const appl = new Vue({
+
+        el:'#app',
+
+    data:{
+
+    titulo:'Componentes de Vue'
+
+    }
+
+
+});
+    
+    </script>
+
+</body>
+</html>
