@@ -1,0 +1,11 @@
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.deps.json
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\bin\Debug\netcoreapp2.0\WebApi.pdb
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.csprojAssemblyReference.cache
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\Josue Cayetano\source\repos\WebApi\WebApi\obj\Debug\netcoreapp2.0\WebApi.pdb
